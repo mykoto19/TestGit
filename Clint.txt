@@ -1,8 +1,8 @@
-git rm <filename>
+git rm <filename.format> (Removing file)
 git add -u
-touch <filename>
-cat <filename>
-git restore --staged <filename>
-git restore <filename>
-echo "Your file content" > <filename>
+touch <filename.format> (Create a file)
+cat <filename> (Read the content of your filename)
+git restore --staged <filename.format>
+git restore <filename.format>
+echo "Your file content" > <filename.format>
 rm -rf .git (remove .git using bash)
