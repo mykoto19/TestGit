@@ -1,0 +1,8 @@
+git rm <filename>
+git add -u
+touch <filename>
+cat <filename>
+git restore --staged <filename>
+git restore <filename>
+echo "Your file content" > <filename>
+rm -rf .git (remove .git using bash)
